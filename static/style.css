@@ -1,0 +1,41 @@
+body {
+    font-family: Consolas, monospace;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #1e1e1e;
+    overflow: hidden;
+    padding: 10px 0;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+.navbar a:hover {
+    background-color: #333;
+}
+
+/* Main Content */
+.main {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer */
+.footer {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
