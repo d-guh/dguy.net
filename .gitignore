@@ -29,3 +29,7 @@ __MACOSX
 
 # Dotenv
 .env
+
+# Python stuff
+__pycache__
+.venv
